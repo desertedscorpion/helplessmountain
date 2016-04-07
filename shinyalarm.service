@@ -1,0 +1,8 @@
+[Unit]
+Description=Shiny Alarm Service
+
+[Service]
+ExecStart=/usr/bin/git -C /srv/rpm/shinyalarm pull origin master
+
+[Install]
+WantedBy=multi-user.target
