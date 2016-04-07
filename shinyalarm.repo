@@ -1,0 +1,7 @@
+[shinyalarm]
+name=Shiny Alarm
+failovermethod=priority
+baseurl=file:///srv/rpm/shinyalarm
+enabled=1
+metadata_expire=28d
+gpgcheck=0
